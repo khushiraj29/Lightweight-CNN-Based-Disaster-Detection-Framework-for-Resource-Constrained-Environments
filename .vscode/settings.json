@@ -1,0 +1,17 @@
+{
+  // Point VS Code at the virtual-environment Python interpreter.
+  // Windows users: change this to "${workspaceFolder}/venv/Scripts/python.exe"
+  // macOS / Linux users: keep this as "${workspaceFolder}/venv/bin/python"
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+
+  // Show the active venv name in the status bar
+  "python.terminal.activateEnvironment": true,
+
+  // Jupyter: prefer the workspace venv as the default kernel
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+
+  // Editor quality-of-life
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "files.trimTrailingWhitespace": true
+}
