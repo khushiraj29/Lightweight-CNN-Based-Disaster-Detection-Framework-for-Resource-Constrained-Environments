@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Model artifacts (large files; add via DVC or LFS if needed)
+*.h5
+*.tflite
+*.pb
+
+# Data (add via DVC or separate dataset repo)
+# data/ is kept via .gitkeep but actual images should not be committed
+data/**
+!data/.gitkeep
+
+# Logs and outputs
+*.log
+*.png
+*.jpg
+*.jpeg
+training_history.png
+confusion_matrix.png
+
+# OS files
+.DS_Store
+Thumbs.db
